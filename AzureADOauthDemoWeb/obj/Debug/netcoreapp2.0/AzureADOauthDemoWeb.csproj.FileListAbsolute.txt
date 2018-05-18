@@ -10,3 +10,15 @@ C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemo\AzureADOauthDemoWeb\obj\Debu
 C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.AssemblyInfo.cs
 C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.dll
 C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.pdb
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\bin\Debug\netcoreapp2.0\AzureADOauthDemoWeb.deps.json
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\bin\Debug\netcoreapp2.0\AzureADOauthDemoWeb.runtimeconfig.json
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\bin\Debug\netcoreapp2.0\AzureADOauthDemoWeb.runtimeconfig.dev.json
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\bin\Debug\netcoreapp2.0\AzureADOauthDemoWeb.dll
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\bin\Debug\netcoreapp2.0\AzureADOauthDemoWeb.pdb
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.csprojResolveAssemblyReference.cache
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.csproj.CoreCompileInputs.cache
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.AssemblyInfoInputs.cache
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.AssemblyInfo.cs
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.dll
+C:\Development\NMUGDemos\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.pdb
