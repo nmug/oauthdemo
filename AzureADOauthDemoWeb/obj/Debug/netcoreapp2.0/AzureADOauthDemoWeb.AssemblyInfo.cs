@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureADOauthDemoWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+535f73248811fa23fb0fe6ef38d70f59a504e426")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureADOauthDemoWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureADOauthDemoWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
