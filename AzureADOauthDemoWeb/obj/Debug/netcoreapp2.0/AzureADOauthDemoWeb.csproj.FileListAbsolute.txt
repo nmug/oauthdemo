@@ -27,3 +27,4 @@ D:\GitHub\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemo
 D:\GitHub\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.AssemblyInfoInputs.cache
 D:\GitHub\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.AssemblyInfo.cs
 D:\GitHub\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.csproj.CoreCompileInputs.cache
+D:\GitHub\oauthdemo\AzureADOauthDemoWeb\obj\Debug\netcoreapp2.0\AzureADOauthDemoWeb.sourcelink.json
