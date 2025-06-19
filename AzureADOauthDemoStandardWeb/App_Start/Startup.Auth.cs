@@ -10,6 +10,8 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Microsoft.IdentityModel.Tokens; // Add this namespace
+using Microsoft.Identity.Client; // Add this namespace for MSAL
 using Owin;
 using AzureADOauthDemoStandardWeb.Models;
 
@@ -46,22 +48,22 @@ namespace AzureADOauthDemoStandardWeb
                     Notifications = new OpenIdConnectAuthenticationNotifications()
                     {
                         // If there is a code in the OpenID Connect response, redeem it for an access token and refresh token, and store those away.
-                        AuthorizationCodeReceived = (context) =>
+                        AuthorizationCodeReceived = async (context) =>
                         {
                             var code = context.Code;
-                            ClientCredential credential = new ClientCredential(clientId, appKey);
-                            string signedInUserID = context.AuthenticationTicket.Identity.FindFirst(ClaimTypes.NameIdentifier).Value;
-                            AuthenticationContext authContext = new AuthenticationContext(Authority, new ADALTokenCache(signedInUserID));
-                            AuthenticationResult result = authContext.AcquireTokenByAuthorizationCode(
-                            code, new Uri(HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Path)), credential, graphResourceId);
+                            IConfidentialClientApplication app = ConfidentialClientApplicationBuilder.Create(clientId)
+                                .WithClientSecret(appKey)
+                                .WithAuthority(new Uri(Authority))
+                                .Build();
 
-                            return Task.FromResult(0);
+                            string[] scopes = new string[] { graphResourceId + "/.default" };
+                            AuthenticationResult result = await app.AcquireTokenByAuthorizationCode(scopes, code).ExecuteAsync();
                         }
                     },
-                    TokenValidationParameters = new System.IdentityModel.Tokens.TokenValidationParameters
+                    TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
                     {
                         RoleClaimType = "roles"
-                     }
+                    }
                 });
             
         }
